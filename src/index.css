@@ -11,8 +11,8 @@ body {
   -moz-osx-font-smoothing: grayscale;
   
   background-image: url("./Components/whiteflowers.jpg");
-
-
+  position: relative;
+  text-align: center;
   
 
 }
@@ -20,4 +20,11 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.Centerr{
+  font-weight:bold;
+  text-align: center;
+  font-size: 30px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
