@@ -10,7 +10,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   
-  background-image: url("./Components/whiteflowers.jpg");
+
   position: relative;
   text-align: center;
   
@@ -27,4 +27,30 @@ code {
   text-align: center;
   font-size: 30px;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  background-color: purple;
+  
+}
+.Centerr h1 {
+color:white;
+}
+.roses{
+  height: 500px;
+  
+}
+
+.cbouquet{
+  height:500px;
+  
+}
+
+.gift{
+  height:500px;
+}
+.card{
+  width:500px;
+
+}
+
+.graduation{
+  height:500px;
 }
