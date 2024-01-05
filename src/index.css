@@ -1,6 +1,12 @@
 
+@font-face{
+  font-family: Cedarville Cursive;
+  src:url(https://fonts.google.com/specimen/Cedarville+Cursive?query=cursive)
+}
 
-
+#title{
+  font-family:Cedarville Cursive;
+}
 
 body {
   margin: 0;

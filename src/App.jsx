@@ -29,7 +29,7 @@ import 'react-multi-carousel/lib/styles.css';
     };
   return (
     <div class="Centerr">
-    <Navbar/> <h1>Sample Flowers</h1>
+    <Navbar/> <h1 id="title">Sample Flowers</h1>
     <Carousel responsive={responsive}>
   <div class="card">
     <img src="https://images.unsplash.com/photo-1578439231583-9eca0a363860?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cmVkJTIwcm9zZXN8ZW58MHx8MHx8fDA%3D" alt="red flowers" class="roses" />
