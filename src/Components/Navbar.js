@@ -15,8 +15,16 @@ const Navbar = () => {
           <li class="nav-item">
             <a class="nav-link active" aria-current="page" href="#">Home</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#"> Info </a>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Info
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Contact Us</a></li>
+              <li><a class="dropdown-item" href="#">About Us</a></li>
+              <li><a class="dropdown-item" href="#">Delivery Policy</a></li>
+              
+            </ul>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -26,7 +34,6 @@ const Navbar = () => {
               <li><a class="dropdown-item" href="#">Birthday</a></li>
               <li><a class="dropdown-item" href="#">Weddings</a></li>
               <li><a class="dropdown-item" href="#">Graduations</a></li>
-              <li><a class="dropdown-item" href="#">Funerals</a></li>
               <li><a class="dropdown-item" href="#">Quinceaneras</a></li>
               <li><hr class="dropdown-divider"/></li>
               <li><a class="dropdown-item" href="#"> Custom Request </a></li>
