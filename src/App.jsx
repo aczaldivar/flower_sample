@@ -9,8 +9,10 @@ import 'react-multi-carousel/lib/styles.css';
 import CartButton from './Components/Cartbutton.js';
 
 import React, {useState} from 'react';
+import Variantz from './Components/Variantz.js';
 
   function App() {
+    
     const [cartItemCount, setCartItemCount] = useState(0);
 
     const handleCartButtonClick = () => {
@@ -39,7 +41,8 @@ import React, {useState} from 'react';
   return (
      
     <div class="Centerr">
-    <Navbar/> <h1 id="title">Sample Flowers</h1>
+    
+    <Variantz/> 
    
     <Carousel responsive={responsive}>
   <div class="card">
