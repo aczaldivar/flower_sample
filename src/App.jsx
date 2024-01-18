@@ -10,6 +10,8 @@ import CartButton from './Components/Cartbutton.js';
 
 import React, {useState} from 'react';
 import Variantz from './Components/Variantz.js';
+import Home from './pages/Home.js';
+
 
   function App() {
     
@@ -43,6 +45,7 @@ import Variantz from './Components/Variantz.js';
     <div class="Centerr">
     
     <Variantz/> 
+   
    
     <Carousel responsive={responsive}>
   <div class="card">
