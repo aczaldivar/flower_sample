@@ -11,6 +11,9 @@ import CartButton from './Components/Cartbutton.js';
 import React, {useState} from 'react';
 import Variantz from './Components/Variantz.js';
 import Home from './pages/Home.js';
+import AboutUs from './pages/AboutUs.js';
+import DeliveryPolicy from './pages/DeliveryPolicy.js';
+import ContactUs from './pages/ContactUs.js';
 
 
   function App() {
@@ -44,7 +47,7 @@ import Home from './pages/Home.js';
      
     <div class="Centerr">
     
-    <Variantz/> 
+  <Navbar/>
    
    
     <Carousel responsive={responsive}>

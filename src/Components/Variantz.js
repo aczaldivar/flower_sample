@@ -23,10 +23,10 @@ function Variantz() {
               menuVariant="dark"
             >
               <NavDropdown.Item href="/AboutUs">About Us</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">
+              <NavDropdown.Item href="/ContactUs">
                     Contact Us
               </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Request</NavDropdown.Item>
+              <NavDropdown.Item href="/Request">Request</NavDropdown.Item>
               
             </NavDropdown>
           </Nav>

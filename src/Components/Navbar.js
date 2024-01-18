@@ -20,9 +20,9 @@ const Navbar = () => {
               Info
             </a>
             <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Contact Us</a></li>
+              <li><a class="dropdown-item" href="/ContactUs">Contact Us</a></li>
               <li><a class="dropdown-item" href="/AboutUs">About Us</a></li>
-              <li><a class="dropdown-item" href="#">Delivery Policy</a></li>
+              <li><a class="dropdown-item" href="/DeliveryPolicy">Delivery Policy</a></li>
               
             </ul>
           </li>
