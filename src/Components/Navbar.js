@@ -1,6 +1,8 @@
 // src/components/Navbar.js
 
 import React from 'react';
+import Layout from '../pages/Layout';
+import ContactUs from '../pages/ContactUs';
 
 const Navbar = () => {
   return (
@@ -13,16 +15,16 @@ const Navbar = () => {
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <a class="nav-link active" aria-current="page" href="/Home">Home</a>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="/" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               Info
             </a>
             <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="/ContactUs">Contact Us</a></li>
-              <li><a class="dropdown-item" href="/AboutUs">About Us</a></li>
-              <li><a class="dropdown-item" href="/DeliveryPolicy">Delivery Policy</a></li>
+              <li><a class="dropdown-item" href="/ContactUs">ContactUs</a> </li>
+              <li><a class="dropdown-item" href="/AboutUs">AboutUs</a></li>
+              <li><a class="dropdown-item" href="/DeliveryPolicy">DeliveryPolicy</a></li>
               
             </ul>
           </li>
@@ -52,5 +54,5 @@ const Navbar = () => {
   </nav>
   );
 };
-
+<Layout/>
 export default Navbar;

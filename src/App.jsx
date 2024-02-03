@@ -14,10 +14,11 @@ import Home from './pages/Home.js';
 import AboutUs from './pages/AboutUs.js';
 import DeliveryPolicy from './pages/DeliveryPolicy.js';
 import ContactUs from './pages/ContactUs.js';
-
-
+import { BrowserRouter as Router, Route } from 'react-router-dom';
+import Layout from './pages/Layout.js';
   function App() {
     
+      
     const [cartItemCount, setCartItemCount] = useState(0);
 
     const handleCartButtonClick = () => {
@@ -48,7 +49,7 @@ import ContactUs from './pages/ContactUs.js';
     <div class="Centerr">
     
   <Navbar/>
-   
+
    
     <Carousel responsive={responsive}>
   <div class="card">
