@@ -1,31 +1,38 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import { BrowserRouter,Routes, Route } from 'react-router-dom';
+import { BrowserRouter, Route,Routes } from 'react-router-dom';
 import './index.css';
-import App from './App';
+
 import reportWebVitals from './reportWebVitals';
 import AboutUs from './pages/AboutUs';
 import Home from './pages/Home';
-import Layout from './pages/Layout';
+import Birthdays from './pages/Birthdays.js';
+import Weddings from './pages/Weddings.js';
+import Graduations from './pages/Graduations.js';
+import Quincianeras from './pages/Quiceaneras.js';
+import ContactUs from './pages/ContactUs.js';
 
-export default function direction(){
-  return(
-    <BrowserRouter>
-    <Routes>
-     <Route>
-      <Route path= "/" element= {<Layout/>}/>
-      <Route index element={<Home/>} />
-      <Route path= "/AboutUs" element={<AboutUs/>}/>
-      </Route>
-    </Routes>
-    </BrowserRouter>
-  );
-};
+import DeliveryPolicy from './pages/DeliveryPolicy.js';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+
+     <BrowserRouter>
+
+  
+    <Routes>
+      <Route path= "/" Component={Home}/>
+      <Route path="/AboutUs" Component={AboutUs}/>
+      <Route path="/ContactUs" Component={ContactUs}/>
+      <Route path="/DeliveryPolicy" Componet={DeliveryPolicy} />
+      <Route path="/Birthdays" exact component={Birthdays}/>
+      <Route path="/Weddings" exact component={Weddings}/>
+      <Route path="/Graduations" exact component={Graduations}/>
+      <Route path="/Quincianeras" exact component={Quincianeras}/>
+    </Routes>
+    </BrowserRouter>
   </React.StrictMode>
 );
 

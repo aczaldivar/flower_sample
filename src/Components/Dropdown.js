@@ -17,6 +17,7 @@ const Dropdown = () => {
           <Link to="/">Home</Link>
           <Link to="/about">About</Link>
           <Link to="/contact">Contact</Link>
+          <Link to="/DeliveryPolicy">Delivery Policy</Link>
         </div>
       )}
     </div>

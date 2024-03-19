@@ -1,10 +1,9 @@
-// Home.js
 import React from 'react';
-import App from "../App.jsx"
+
 
 const Home = () => {
   return (
-<App/>
+<h1>happy birthday</h1>
 
 )};
 

@@ -6,6 +6,7 @@ import { Outlet, Link } from 'react-router-dom';
 import Home from "./Home";
 import AboutUs from './AboutUs';
 import ContactUs from './ContactUs';
+import DeliveryPolicy from './DeliveryPolicy';
 
 function Layout() {
   return (
@@ -20,6 +21,9 @@ function Layout() {
         </li>
         <li>
           <Link to="/ContactUS">{ContactUs}</Link>
+        </li>
+        <li>
+          <Link to="/DeliveryPolicy">{DeliveryPolicy}</Link>
         </li>
       </ul>
     </nav>

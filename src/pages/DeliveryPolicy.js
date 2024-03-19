@@ -1,10 +1,11 @@
 import React from 'react';
 
 const DeliveryPolicy =()=>{
-    return <div>
-         Delivery Policy
+    return( 
+    
+        <h1>Delivery Policy</h1> 
 
-    </div>;
+    );
 };
 
 export default DeliveryPolicy;

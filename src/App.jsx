@@ -6,19 +6,11 @@ import Navbar from './Components/Navbar.js';
 import '../src/index.css';
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
-import CartButton from './Components/Cartbutton.js';
 
 import React, {useState} from 'react';
-import Variantz from './Components/Variantz.js';
-import Home from './pages/Home.js';
-import AboutUs from './pages/AboutUs.js';
-import DeliveryPolicy from './pages/DeliveryPolicy.js';
-import ContactUs from './pages/ContactUs.js';
-import { BrowserRouter as Router, Route } from 'react-router-dom';
-import Layout from './pages/Layout.js';
+
   function App() {
     
-      
     const [cartItemCount, setCartItemCount] = useState(0);
 
     const handleCartButtonClick = () => {
@@ -45,7 +37,7 @@ import Layout from './pages/Layout.js';
       }
     };
   return (
-     
+    
     <div class="Centerr">
     
   <Navbar/>
