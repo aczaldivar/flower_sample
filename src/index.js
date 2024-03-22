@@ -26,7 +26,7 @@ root.render(
       <Route path= "/" Component={Home}/>
       <Route path="/AboutUs" Component={AboutUs}/>
       <Route path="/ContactUs" Component={ContactUs}/>
-      <Route path="/DeliveryPolicy" Componet={DeliveryPolicy} />
+      <Route path="/DeliveryPolicy" Component={DeliveryPolicy} />
       <Route path="/Birthdays" exact component={Birthdays}/>
       <Route path="/Weddings" exact component={Weddings}/>
       <Route path="/Graduations" exact component={Graduations}/>
