@@ -6,11 +6,22 @@ const AboutUs =()=>{
     return(
         <>
       <Navbar/>
-      <div class="title" background-color= "pink">
-        <h1 style={{color:'red'}} >About Us</h1>
+      <div>
+        <h1 id="SFtitle"> Sample Flowers</h1>
+        <h1 class="blahinfo">About Us</h1>
         </div>
-        <h2>This is Sample Flowers!</h2>
-        
+        <div class="blahinfo">
+        <h2>We are located in Southen California.
+        <h2>We decided to pursue our vocation to become flower bouquet
+          designers.</h2> 
+        <h2>We hope you like our designs.</h2>
+        </h2>
+        <div>
+          <div>
+         <img src="https://cdn11.bigcommerce.com/s-lzx6le/images/stencil/1280x1280/products/1241/2902/167398L__04164.1557610883.jpg?c=2" class="pic1" alt="pinkbouquet"></img>
+        </div>
+        </div>
+        </div>
     </>
     );
 };
