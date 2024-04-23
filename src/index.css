@@ -23,7 +23,7 @@ body {
   position: relative;
   text-align: center;
   
-
+ 
 }
 
 code {
@@ -90,3 +90,20 @@ color:rgb(224, 15, 214);
 .button.btn.btn-light{
   margin-right:20px;
 }
+
+.contacttitle{
+text-align: center;
+}
+
+#SFtitle{
+  text-align: center;
+  font-family: 'Cedarville Cursive', cursive;
+  font-size: 75px;
+  font-weight:bold; 
+  margin-top: 20px;
+}
+
+#contact_info{
+  text-align: center;
+}
+
