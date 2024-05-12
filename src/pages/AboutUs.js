@@ -11,7 +11,7 @@ const AboutUs =()=>{
         <h1 class="blahinfo">About Us</h1>
         </div>
         <div class="blahinfo">
-        <h2>We are located in Southen California.
+        <h2>We are located in Southern California.
         <h2>We decided to pursue our vocation to become flower bouquet
           designers.</h2> 
         <h2>We hope you like our designs.</h2>
