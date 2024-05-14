@@ -2,18 +2,19 @@ import React from 'react';
 import '../Components/pages.css';
 import Navbar from '../Components/Navbar.js';
 
-const Weddings =()=>{
+const Quinceaneras =()=>{
     return(
         <>
       <Navbar/>
       <div>
         <h1 id="SFtitle"> Sample Flowers</h1>
-        <h1 class="blahinfo">Weddings</h1>
+        <h1 class="blahinfo">Quinceaneras</h1>
         </div>
+       
         <div class="blahinfo">
         <h2>
-        <h2>Decorations for your beautiful wedding.</h2>
-        <h2>We hope you like our designs.</h2>
+        <h2>You did it!</h2>
+         <div>Let's Celebrate that Milestone!</div>
         </h2>
         <div>
           <div>
@@ -25,4 +26,4 @@ const Weddings =()=>{
     );
 };
 
-export default Weddings;
+export default Quinceaneras;

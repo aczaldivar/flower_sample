@@ -34,14 +34,14 @@ const Navbar = () => {
             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               Events
             </a>
-            <NavLink to="/" exact activeClassName="active"> </NavLink>
+            <NavLink to="/" exact activeClassName="active"></NavLink> 
             <ul class="dropdown-menu">
               <li><a class="dropdown-item" href="/Birthdays">Birthdays</a></li>
               <li><a class="dropdown-item" href="/Weddings">Weddings</a></li>
               <li><a class="dropdown-item" href="/Graduations">Graduations</a></li>
               <li><a class="dropdown-item" href="/Quinceaneras">Quinceaneras</a></li>
               <li><hr class="dropdown-divider"/></li>
-              <li><a class="dropdown-item" href="#"> Custom Request </a></li>
+              <li><a class="dropdown-item" href="/RequestCustomer"> Custom Request </a></li>
             </ul>
           </li>
         </ul>

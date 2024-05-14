@@ -9,9 +9,9 @@ import Home from './pages/Home';
 import Birthdays from './pages/Birthdays.js';
 import Weddings from './pages/Weddings.js';
 import Graduations from './pages/Graduations.js';
-import Quincianeras from './pages/Quiceaneras.js';
+import Quincianeras from './pages/Quinceaneras.js';
 import ContactUs from './pages/ContactUs.js';
-
+import RequestCustomer from './pages/RequestCustomer.js';
 import DeliveryPolicy from './pages/DeliveryPolicy.js';
 
 
@@ -27,10 +27,11 @@ root.render(
       <Route path="/AboutUs" Component={AboutUs}/>
       <Route path="/ContactUs" Component={ContactUs}/>
       <Route path="/DeliveryPolicy" Component={DeliveryPolicy} />
-      <Route path="/Birthdays" exact component={Birthdays}/>
-      <Route path="/Weddings" exact component={Weddings}/>
-      <Route path="/Graduations" exact component={Graduations}/>
-      <Route path="/Quincianeras" exact component={Quincianeras}/>
+      <Route path="/Birthdays" Component={Birthdays}/>
+      <Route path="/Weddings" Component={Weddings}/>
+      <Route path="/Graduations" Component={Graduations}/>
+      <Route path="/Quinceaneras" Component={Quincianeras}/>
+      <Route path="/RequestCustomer" Component={RequestCustomer}/>
     </Routes>
     </BrowserRouter>
   </React.StrictMode>
