@@ -132,3 +132,6 @@ height:300px;
 textarea{
 display:flexstart;
 }
+.submit{
+  text-align: center;
+}

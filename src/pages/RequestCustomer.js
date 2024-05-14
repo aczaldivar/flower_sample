@@ -18,18 +18,17 @@ const RequestCustomer =()=>{
     <input type="text" name="name"/>
     Email:
     <input type="email"/>
-  </label>
-    <div> Customer Request:
+  <div></div>
+     Customer Request:
 
    <textarea name= "postContent"/>
+ </label></form>
  </div> 
  <div>
-   
-  <input type="submit" value="Submit" />
+<input type="submit" value="Submit" class="submit"/>
+   </div>
+  
   </div>
-</form>
-        </div>
-        </div>
 
       </>
 );
