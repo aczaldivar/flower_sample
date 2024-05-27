@@ -5,7 +5,7 @@ const DeliveryPolicy =()=>{
     return( 
         <>
     <Navbar/>
-    <h1 id="SFtitle"> Sample Flowers</h1>
+    <a class="navbar-brand" href="/"> <h1 id="SFtitle"> Sample Flowers</h1></a>
         <h1 id="DP">Delivery Policy</h1> 
         <div>
         <h2 id="DP">We will deliver under a 20 mile radius from our location.</h2>

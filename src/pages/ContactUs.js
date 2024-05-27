@@ -8,7 +8,7 @@ const ContactUs =()=>{
 <Navbar/>
 <div>
     <div class="background">
-      <h1 id="SFtitle">Sample Flowers</h1>
+    <a class="navbar-brand" href="/"> <h1 id="SFtitle"> Sample Flowers</h1></a>
       </div>
       <h1 class ="contacttitle">Contact Us</h1>
       <div>

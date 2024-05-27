@@ -7,7 +7,7 @@ const AboutUs =()=>{
         <>
       <Navbar/>
       <div>
-        <h1 id="SFtitle"> Sample Flowers</h1>
+      <a class="navbar-brand" href="/"> <h1 id="SFtitle"> Sample Flowers</h1></a>
         <h1 class="blahinfo">About Us</h1>
         </div>
         <div class="blahinfo">

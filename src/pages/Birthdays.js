@@ -8,7 +8,7 @@ const Birthdays = () => {
     <>
     <Navbar/>
     <div class="blahinfo">
-    <h1 id="SFtitle"> Sample Flowers</h1>
+    <a class="navbar-brand" href="/"> <h1 id="SFtitle"> Sample Flowers</h1></a>
     <div></div>
     <h1>Happy Birthday</h1>
     <Products/>

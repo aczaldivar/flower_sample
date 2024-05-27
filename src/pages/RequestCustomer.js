@@ -6,7 +6,7 @@ const RequestCustomer =()=>{
     return(
         <>
       <Navbar/>
-      <h1 id="SFtitle"> Sample Flowers</h1>
+      <a class="navbar-brand" href="/"> <h1 id="SFtitle"> Sample Flowers</h1></a>
         <h1 class="blahinfo">Customer Request</h1>
         <div>
         <div class="blahinfo"><h2></h2>
