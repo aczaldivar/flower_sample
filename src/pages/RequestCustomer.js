@@ -7,21 +7,38 @@ const RequestCustomer =()=>{
         <>
       <Navbar/>
       <a class="navbar-brand" href="/"> <h1 id="SFtitle"> Sample Flowers</h1></a>
-        <h1 class="blahinfo">Customer Request</h1>
+        <h1 class="blahinfo">Customer Request Form</h1>
         <div>
         <div class="blahinfo"><h2></h2>
         <form>
   <label>
-    Name:
-    <input type="text" name="name" />
-    Last Name:
-    <input type="text" name="name"/>
-    Email:
-    <input type="email"/>
+    
   <div></div>
-     Customer Request:
+  <div class="row">
+  <div class="col">
+    <input type="text" class="form-control" placeholder="First name" aria-label="First name"/>
+  </div>
+  <div class="col">
+    <input type="text" class="form-control" placeholder="Last name" aria-label="Last name"/>
+  </div>
+  <div class="row mb-3">
+ <div>
+  
+  <div class="col-sm">
+    <input type="text" class="form-control" placeholder="Phone" aria-label="Phone"/>
+  <div class="col-sm">
+    <input type="email" class="form-control" id="colFormLabel" placeholder="Email"/>
+  </div></div>
+  </div>
+  </div>
+</div>
 
-   <textarea name= "postContent"/>
+    
+     <div class="mb-3">
+  <label for="formGroupExampleInput" class="form-label"> Personalized Customer Request</label>
+  <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Request"/>
+</div>
+ 
  </label></form>
  </div> 
  <div>
