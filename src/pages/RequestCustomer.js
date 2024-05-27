@@ -1,55 +1,72 @@
-import React from 'react';
+import React, {useState} from 'react';
 import '../Components/pages.css';
 import Navbar from '../Components/Navbar.js';
 
 
-  
-const RequestCustomer =()=>{
-    return(
-        <>
-      <Navbar/>
-      <a class="navbar-brand" href="/"> <h1 id="SFtitle"> Sample Flowers</h1></a>
-        <h1 class="blahinfo">Customer Request Form</h1>
-        <div>
-        <div class="blahinfo"><h2></h2>
-        <form>
-  <label>
-    
-  <div></div>
-  <div class="row">
-  <div class="col">
-    <input type="text" class="form-control" placeholder="First name" aria-label="First name"/>
-  </div>
-  <div class="col">
-    <input type="text" class="form-control" placeholder="Last name" aria-label="Last name"/>
-  </div>
-  <div class="row mb-3">
- <div>
-  
-  <div class="col-sm">
-    <input type="text" class="form-control" placeholder="Phone" aria-label="Phone"/>
-  <div class="col-sm">
-    <input type="email" class="form-control" id="colFormLabel" placeholder="Email"/>
-  </div></div>
-  </div>
-  </div>
-</div>
 
-    
-<div class="mb-3">
-  <label for="exampleFormControlTextarea1" class="form-label">Request: </label>
-  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-</div>
- </label></form>
- </div> 
- <div>
-<input type="submit" value="Submit" class="submit"/>
-   </div>
-  
-  </div>
-<img src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSY60hctfg52ekDupG31khPv6KhRzCoRT_M8ETWIsMR_tvTAD8T1Pv9NoIQE3DmmaWltXTy3dSrzjnCGD_Vxvlt-vx_E0Uv7JhUfl5-NfAMSDHE95XCw_iuoDu1mw0mxHxORyuG9lvsNEo&usqp=CAc"/>
+const RequestCustomer = () => {
+ 
+  const [name, setName] = useState('');
+  const [email, setEmail] = useState('');
+  const [message, setMessage] = useState('');
+  const [submitted, setSubmitted] = useState(false);
 
-      </>
-);
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    // Simulate form submission (you would replace this with actual form submission logic)
+    await new Promise((resolve) => setTimeout(resolve, 1000));
+    setSubmitted(true);
+  };
+  
+
+  return (
+ <><Navbar/>
+  <a class="navbar-brand" href="/"> <h1 id="SFtitle"> Sample Flowers</h1></a>
+    <div className="container mt-5">
+      {submitted ? (
+        <div className="alert alert-success" role="alert">
+          Thank you for your request!
+        </div>
+      ) : (
+        <form onSubmit={handleSubmit}>
+          <div className="mb-3">
+            <label htmlFor="name" className="form-label">Name:</label>
+            <input
+              type="text"
+              className="form-control"
+              id="name"
+              value={name}
+              onChange={(e) => setName(e.target.value)}
+              required
+            />
+          </div>
+          <div className="mb-3">
+            <label htmlFor="email" className="form-label">Email:</label>
+            <input
+              type="email"
+              className="form-control"
+              id="email"
+              value={email}
+              onChange={(e) => setEmail(e.target.value)}
+              required
+            />
+          </div>
+          <div className="mb-3">
+            <label htmlFor="message" className="form-label">Message:</label>
+            <textarea
+              className="form-control"
+              id="message"
+              value={message}
+              onChange={(e) => setMessage(e.target.value)}
+              required
+            />
+          </div>
+          <button type="submit" className="btn btn-primary">Submit</button>
+        </form>
+      )}
+    </div>
+    </>
+  );
 };
+
 export default RequestCustomer;

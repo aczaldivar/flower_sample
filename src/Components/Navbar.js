@@ -39,7 +39,7 @@ const Navbar = () => {
               <li><a class="dropdown-item" href="/Birthdays">Birthdays</a></li>
               <li><a class="dropdown-item" href="/Weddings">Weddings</a></li>
               <li><a class="dropdown-item" href="/Graduations">Graduations</a></li>
-              <li><a class="dropdown-item" href="/Quinceaneras">Quinceaneras</a></li>
+             
               <li><hr class="dropdown-divider"/></li>
               <li><a class="dropdown-item" href="/RequestCustomer"> Custom Request </a></li>
             </ul>
