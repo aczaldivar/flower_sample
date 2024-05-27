@@ -41,6 +41,17 @@ const RequestCustomer = () => {
             />
           </div>
           <div className="mb-3">
+            <label htmlFor="Phone" className="form-label">Phone:</label>
+            <input
+              type="text"
+              className="form-control"
+              id="phone"
+              value={name}
+              onChange={(e) => setName(e.target.value)}
+              required
+            />
+          </div>
+          <div className="mb-3">
             <label htmlFor="email" className="form-label">Email:</label>
             <input
               type="email"
