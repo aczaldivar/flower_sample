@@ -1,6 +1,7 @@
 import React from 'react';
 import '../Components/pages.css';
 import Navbar from '../Components/Navbar.js';
+import WedProducts from '../Components/WedProducts.js';
 
 const Weddings =()=>{
     return(
@@ -17,10 +18,11 @@ const Weddings =()=>{
         </h2>
         <div>
           <div>
-         <img src="https://cdn11.bigcommerce.com/s-lzx6le/images/stencil/1280x1280/products/1241/2902/167398L__04164.1557610883.jpg?c=2" class="pic1" alt="pinkbouquet"></img>
+         
         </div>
         </div>
         </div>
+        <WedProducts/>
     </>
     );
 };
