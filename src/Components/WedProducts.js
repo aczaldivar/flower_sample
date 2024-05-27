@@ -6,21 +6,21 @@ const products = [
     id: 1,
     name: 'Product 1',
     price: '$19.99',
-    description: 'This is a short description of product 1.',
+    description: 'Blue tones with white flowers.',
     image: 'https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSS5PZ7VzBSSRFLP-9v20ibA03r5ZyiPm2p6Rx5RqPLSOIiH_Td8PzycPzpcazPVK6USij03-DHXdL_Bc65MH49VbXr4_IoYrioZLykziT1c_SEltZXsc9HyA'
   },
   {
     id: 2,
     name: 'Product 2',
     price: '$29.99',
-    description: 'This is a short description of product 2.',
+    description: 'Contemorary schemes.',
     image: 'https://www.kukkaflowers.com/cdn/shop/products/Lush_Blush_Bridal_Bouquet_460x.jpg?v=1640649377'
   },
   {
     id: 3,
     name: 'Product 3',
     price: '$39.99',
-    description: 'This is a short description of product 3.',
+    description: 'Pink Tones with white flowers.',
     image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSh8OxCS3tZce-GUFl5vYEgqy1EfkGHrLdRkxh9i-uaKQlTgvNdJiXMjbgb_g&s'
   }
 ];
