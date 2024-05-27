@@ -48,7 +48,7 @@ const Navbar = () => {
         <button type="button" class="btn btn-light">Cart<span class="material-symbols-outlined">
         shopping_cart
         </span></button>
-        <form action="https://www.bing.com/search" method="GET" class="d-flex" role="search">
+        <form action="https://www.google.com/search" method="GET" class="d-flex" role="search">
           <input type="text" name="q" class="form-control me-2"  placeholder="Search" aria-label="Search" required/>
           <button class="btn btn-outline-success" type="submit">Search</button>
         </form>
