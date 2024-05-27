@@ -2,6 +2,8 @@ import React from 'react';
 import '../Components/pages.css';
 import Navbar from '../Components/Navbar.js';
 
+
+  
 const RequestCustomer =()=>{
     return(
         <>
@@ -34,11 +36,10 @@ const RequestCustomer =()=>{
 </div>
 
     
-     <div class="mb-3">
-  <label for="formGroupExampleInput" class="form-label"> Personalized Customer Request</label>
-  <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Request"/>
+<div class="mb-3">
+  <label for="exampleFormControlTextarea1" class="form-label">Request: </label>
+  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
 </div>
- 
  </label></form>
  </div> 
  <div>
@@ -47,6 +48,7 @@ const RequestCustomer =()=>{
   
   </div>
 <img src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSY60hctfg52ekDupG31khPv6KhRzCoRT_M8ETWIsMR_tvTAD8T1Pv9NoIQE3DmmaWltXTy3dSrzjnCGD_Vxvlt-vx_E0Uv7JhUfl5-NfAMSDHE95XCw_iuoDu1mw0mxHxORyuG9lvsNEo&usqp=CAc"/>
+
       </>
 );
 };
