@@ -11,12 +11,16 @@ import React, {useState} from 'react';
 
   function App() {
     
-    const [cartItemCount, setCartItemCount] = useState(0);
+    //const [cartItemCount, setCartItemCount] = useState(0);
+
+
 
     const handleCartButtonClick = () => {
     // Handle cart button click (e.g., open a modal, navigate to the cart page)
     console.log('Cart button clicked!');
   };
+  handleCartButtonClick();
+
     const responsive = {
       superLargeDesktop: {
         // the naming can be any, depends on you.
