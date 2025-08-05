@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/aczaldivar/flower_sample/static/css/main.2bc0e6ad.css",
+    "main.js": "/aczaldivar/flower_sample/static/js/main.e47dfbcc.js",
+    "static/js/787.5ddfa3e7.chunk.js": "/aczaldivar/flower_sample/static/js/787.5ddfa3e7.chunk.js",
+    "static/media/revicons.eot": "/aczaldivar/flower_sample/static/media/revicons.a77de540a38981833f9e.eot",
+    "static/media/revicons.ttf": "/aczaldivar/flower_sample/static/media/revicons.57fd05d4ae650374c8de.ttf",
+    "static/media/revicons.woff": "/aczaldivar/flower_sample/static/media/revicons.e8746a624ed098489406.woff",
+    "index.html": "/aczaldivar/flower_sample/index.html",
+    "main.2bc0e6ad.css.map": "/aczaldivar/flower_sample/static/css/main.2bc0e6ad.css.map",
+    "main.e47dfbcc.js.map": "/aczaldivar/flower_sample/static/js/main.e47dfbcc.js.map",
+    "787.5ddfa3e7.chunk.js.map": "/aczaldivar/flower_sample/static/js/787.5ddfa3e7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2bc0e6ad.css",
+    "static/js/main.e47dfbcc.js"
+  ]
+}
