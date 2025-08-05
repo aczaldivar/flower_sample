@@ -11,7 +11,7 @@ import React, {useState} from 'react';
 
   function App() {
     
-    //const [cartItemCount, setCartItemCount] = useState(0);
+   // const [cartItemCount, setCartItemCount] = useState(0);
 
 
 
